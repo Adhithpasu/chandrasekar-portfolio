@@ -219,7 +219,7 @@ export default function Page() {
           <p className="mb-6 text-lg text-slate-300">Interested in AI research, machine learning, biomedical AI, or student-led innovation? Reach out below.</p>
           <div className="flex flex-wrap gap-4">
             <LinkButton href={`mailto:${profile.email}`}><Mail size={16} /> Email</LinkButton>
-            <LinkButton href={profile.github}><Github size={16} /> GitHub</LinkButton>
+            <LinkButton href={profile.github}><GithubIcon size={16} /> GitHub</LinkButton>
             <LinkButton href={profile.linkedin}><GraduationCap size={16} /> LinkedIn</LinkButton>
             <LinkButton href={profile.resume}><BookOpen size={16} /> Resume</LinkButton>
           </div>
