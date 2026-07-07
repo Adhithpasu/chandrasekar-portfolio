@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: #08111f;
+  color: #e5f0ff;
+}
+.gradient-text {
+  background: linear-gradient(90deg, #5eead4, #60a5fa, #a78bfa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.045) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+.card {
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(13,27,46,0.72);
+  backdrop-filter: blur(16px);
+  border-radius: 24px;
+}
