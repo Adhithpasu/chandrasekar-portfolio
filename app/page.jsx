@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ArrowUpRight, Award, BookOpen, BrainCircuit, Code2, Github, GraduationCap, Mail, Microscope, Music, Sparkles, Users } from 'lucide-react'
+import { ArrowUpRight, Award, BookOpen, BrainCircuit, Code2, GithubIcon, GraduationCap, Mail, Microscope, Music, Sparkles, Users } from 'lucide-react'
 
 const profile = {
   name: 'Chandrasekar Pasumarthi',
