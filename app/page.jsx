@@ -253,7 +253,7 @@ export default function Page() {
         </div>
       </Section>
 
-      <section id="journey" className="py-24 px-6">
+  <Section id="journey" className="py-24 px-6">
   <div className="max-w-6xl mx-auto">
     <p className="text-sm uppercase tracking-[0.3em] text-indigo-400 mb-3">
       My Journey
@@ -290,7 +290,7 @@ export default function Page() {
       ))}
     </div>
   </div>
-</section>
+</Section>
 
       <Section id="contact" eyebrow="Contact" title="Let’s connect.">
         <div className="card p-8">
