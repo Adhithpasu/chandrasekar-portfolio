@@ -145,6 +145,7 @@ export default function Page() {
             <a href="#research" className="hover:text-cyan">Research</a>
             <a href="#projects" className="hover:text-cyan">Projects</a>
             <a href="#experience" className="hover:text-cyan">Experience</a>
+            <a href="#journey" className="hover:text-cyan">Journey</a>
             <a href="#awards" className="hover:text-cyan">Awards</a>
             <a href="#contact" className="hover:text-cyan">Contact</a>
           </div>
