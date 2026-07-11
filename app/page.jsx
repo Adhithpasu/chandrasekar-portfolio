@@ -74,6 +74,45 @@ const activities = [
   ['Music', 'Completed Royal Conservatory of Music flute certification through Level 6.', Music]
 ]
 
+const journey = [
+  {
+    year: "Elementary School",
+    title: "First Curiosity",
+    image: "/journey/elementary.jpg",
+    text: "I began exploring how technology worked through simple games, puzzles, and early coding curiosity."
+  },
+  {
+    year: "Middle School",
+    title: "Building Foundations",
+    image: "/journey/middle-school.jpg",
+    text: "I started learning programming, robotics, and problem-solving, realizing I could build instead of just use technology."
+  },
+  {
+    year: "Freshman Year",
+    title: "Discovering CS",
+    image: "/journey/freshman.jpg",
+    text: "I began taking computer science seriously, strengthening my coding skills and exploring AI concepts."
+  },
+  {
+    year: "Sophomore Year",
+    title: "Entering Research",
+    image: "/journey/sophomore.jpg",
+    text: "I started applying machine learning to real problems and became interested in research-driven technology."
+  },
+  {
+    year: "Junior Year",
+    title: "Research & Impact",
+    image: "/journey/junior.jpg",
+    text: "Through publications, ACM research, and AI projects, I learned how technology can support healthcare and education."
+  },
+  {
+    year: "Senior Year",
+    title: "Looking Ahead",
+    image: "/journey/senior.jpg",
+    text: "I am continuing to grow as an AI researcher and developer while preparing to contribute meaningfully in college."
+  }
+];
+
 function Section({ id, eyebrow, title, children }) {
   return (
     <section id={id} className="mx-auto max-w-6xl px-6 py-20">
