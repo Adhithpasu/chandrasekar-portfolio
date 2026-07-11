@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import EarlyProject from "@/components/EarlyProject";
+import EarlyProject from "../components/EarlyProject";
 import { ArrowUpRight, Award, BookOpen, BrainCircuit, Code2, GithubIcon, GraduationCap, Mail, Microscope, Music, Sparkles, Users } from 'lucide-react'
 
 const profile = {
