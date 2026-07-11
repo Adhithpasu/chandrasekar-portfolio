@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import EarlyProject from "@/components/EarlyProject";
 import { ArrowUpRight, Award, BookOpen, BrainCircuit, Code2, GithubIcon, GraduationCap, Mail, Microscope, Music, Sparkles, Users } from 'lucide-react'
 
 const profile = {
@@ -145,6 +146,7 @@ export default function Page() {
             <a href="#research" className="hover:text-cyan">Research</a>
             <a href="#projects" className="hover:text-cyan">Projects</a>
             <a href="#experience" className="hover:text-cyan">Experience</a>
+            <a href="#early-project" className="hover:text-cyan">Early Project</a>
             <a href="#journey" className="hover:text-cyan">Journey</a>
             <a href="#awards" className="hover:text-cyan">Awards</a>
             <a href="#contact" className="hover:text-cyan">Contact</a>
@@ -241,18 +243,7 @@ export default function Page() {
         </div>
       </Section>
 
-      <Section id="photography" eyebrow="Photography" title="Creative perspective.">
-        <div className="card p-8">
-          <p className="text-lg leading-8 text-slate-300">This section can showcase original photography and future computer vision experiments such as image tagging, search, or AI-assisted categorization.</p>
-          <div className="mt-8 grid gap-4 md:grid-cols-3">
-            {['Nature', 'Architecture', 'Night Sky'].map((label) => (
-              <div key={label} className="flex h-44 items-end rounded-2xl border border-white/10 bg-gradient-to-br from-cyan/20 via-blue/10 to-violet/20 p-5">
-                <span className="font-bold">{label}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </Section>
+      <EarlyProject />
 
   <Section id="journey" className="py-24 px-6">
   <div className="max-w-6xl mx-auto">
