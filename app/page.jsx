@@ -253,6 +253,45 @@ export default function Page() {
         </div>
       </Section>
 
+      <section id="journey" className="py-24 px-6">
+  <div className="max-w-6xl mx-auto">
+    <p className="text-sm uppercase tracking-[0.3em] text-indigo-400 mb-3">
+      My Journey
+    </p>
+
+    <h2 className="text-4xl md:text-5xl font-bold mb-6">
+      Growing Through Technology
+    </h2>
+
+    <p className="text-slate-400 max-w-3xl mb-14">
+      A visual timeline of how my curiosity for technology evolved through
+      school — from early exploration to AI research, publications, and
+      real-world projects.
+    </p>
+
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {journey.map((item, index) => (
+        <div
+          key={index}
+          className="rounded-2xl border border-slate-800 bg-slate-900/60 overflow-hidden hover:border-indigo-500 transition"
+        >
+          <img
+            src={item.image}
+            alt={item.title}
+            className="h-56 w-full object-cover"
+          />
+
+          <div className="p-6">
+            <p className="text-sm text-indigo-400 mb-2">{item.year}</p>
+            <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
+            <p className="text-slate-400 text-sm leading-6">{item.text}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
       <Section id="contact" eyebrow="Contact" title="Let’s connect.">
         <div className="card p-8">
           <p className="mb-6 text-lg text-slate-300">Interested in AI research, machine learning, biomedical AI, or student-led innovation? Reach out below.</p>
